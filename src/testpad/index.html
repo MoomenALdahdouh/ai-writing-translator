@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Translator playground</title>
+    <link rel="icon" type="image/png" href="/icons/icon-32.png" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Lingo playground</h1>
+      <p>Focus a field, write, then use the translation shortcut.</p>
+      <label>
+        Input
+        <input id="text" type="text" value="مرحبا، أريد معرفة المزيد عن هذا المنتج." />
+      </label>
+      <label>
+        Textarea
+        <textarea id="area" rows="4">مرحبا، كيف حالك؟</textarea>
+      </label>
+      <label>
+        Contenteditable
+        <div id="edit" contenteditable="true">أنا working on the project اليوم.</div>
+      </label>
+    </main>
+    <script type="module" src="./main.ts"></script>
+  </body>
+</html>

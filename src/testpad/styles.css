@@ -1,0 +1,37 @@
+@import '../ui/tokens.css';
+
+body {
+  margin: 0;
+  padding: 32px;
+  font-family: var(--font);
+  background: var(--background);
+  color: var(--text-primary);
+}
+
+main {
+  max-width: 640px;
+  display: grid;
+  gap: 16px;
+}
+
+label {
+  display: grid;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 650;
+}
+
+input,
+textarea,
+[contenteditable] {
+  font: inherit;
+  font-weight: 400;
+  padding: 10px 12px;
+  border: 1px solid var(--border-strong);
+  border-radius: 10px;
+  background: #fff;
+}
+
+[contenteditable] {
+  min-height: 72px;
+}
